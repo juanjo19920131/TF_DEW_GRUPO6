@@ -13,7 +13,7 @@
           <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
           <div class="main-menu">
             <div id="header_menu">
-              <img src="assets/img/logo_menu.png" width="145" height="34" alt="Bestours">
+              <img src="assets/img/logo_menu.png" width="145" height="34" alt="PrimaMotors">
             </div>
             <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
             <ul>
@@ -26,17 +26,17 @@
               <li class="submenu">
                 <a href="javascript:void(0);" class="show-submenu">Modelos</a>
                 <ul>
-                  <li><a class="dropdown-item" routerLink="#">NISSAN</a>
+                  <li><a class="dropdown-item" routerLink="modelos/nissan">NISSAN</a>
                   </li>
-                  <li><a class="dropdown-item" routerLink="#">TOYOTA</a>
+                  <li><a class="dropdown-item" routerLink="modelos/toyota">TOYOTA</a>
                   </li>
-                  <li><a class="dropdown-item" routerLink="#">HYUNDAI</a>
+                  <li><a class="dropdown-item" routerLink="modelos/hyundai">HYUNDAI</a>
                   </li>
-                  <li><a class="dropdown-item" routerLink="#">SUBARU</a>
+                  <li><a class="dropdown-item" routerLink="modelos/subaru">SUBARU</a>
                   </li>
-                  <li><a class="dropdown-item" routerLink="#">BMW</a>
+                  <li><a class="dropdown-item" routerLink="modelos/bmw">BMW</a>
                   </li>
-                  <li><a class="dropdown-item" routerLink="#">MERCEDES BENZ</a>
+                  <li><a class="dropdown-item" routerLink="modelos/mercedes">MERCEDES BENZ</a>
                   </li>
                 </ul>
               </li>
@@ -45,9 +45,9 @@
                 <div class="menu-wrapper">
                   <div class="row">
                     <div class="col-md-4">
-                      <h3>Autos Nuevos (0Km)</h3>
+                      <h3>Vehículos Nuevos (0Km)</h3>
                       <div class="menu-item">
-                        <a href="#"><img src="assets/img/menu-demo-1.jpg" width="400" height="226" alt="" class="img-responsive">
+                        <a href="servicios/nuevo"><img src="assets/img/menu-demo-1.jpg" width="400" height="226" alt="" class="img-responsive">
                         </a>
                         <p>
                           Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae forensibus qui. Duo aliquip necessitatibus ne.
@@ -57,7 +57,7 @@
                     <div class="col-md-4">
                       <h3>Vehículos de Segunda Mano</h3>
                       <div class="menu-item">
-                        <a href="#"><img src="assets/img/menu-demo-2.jpg" width="400" height="226" alt="" class="img-responsive">
+                        <a href="servicios/usado"><img src="assets/img/menu-demo-2.jpg" width="400" height="226" alt="" class="img-responsive">
                         </a>
                         <p>
                           Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae forensibus qui. Duo aliquip necessitatibus ne.
@@ -67,7 +67,7 @@
                     <div class="col-md-4">
                       <h3>Taller de Mantenimiento</h3>
                       <div class="menu-item">
-                        <a href="#"><img src="assets/img/menu-demo-3.jpg" width="400" height="226" alt="" class="img-responsive">
+                        <a href="servicios/taller"><img src="assets/img/menu-demo-3.jpg" width="400" height="226" alt="" class="img-responsive">
                         </a>
                         <p>
                           Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae forensibus qui. Duo aliquip necessitatibus ne.
@@ -78,8 +78,29 @@
                 </div>
                 <!-- End menu-wrapper -->
               </li>
+              <li class="submenu">
+                <a href="javascript:void(0);" class="show-submenu">Cotizaciones</a>
+                <ul>
+                  <li><a class="dropdown-item" routerLink="admin/nuevo/compra/new">Registrar Compra de Vehículo Nuevo</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/nuevo/compra/list">Listar Compras de Vehículos Nuevos</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/usado/compra/new">Registrar Compra de Vehículo Usado</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/usado/compra/list">Listar Compras de Vehículos Usados</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/usado/venta/new">Registrar Venta de Vehículo Usado</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/usado/venta/list">Listar Venta de Vehículos Usados</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/taller/solicitud/new">Registrar Solicitud de Mantenimiento</a>
+                  </li>
+                  <li><a class="dropdown-item" routerLink="admin/taller/solicitud/list">Listar Solicitudes de Mantenimiento</a>
+                  </li>
+                </ul>
+              </li>
               <li>
-                <a routerLink="nosotros">Contacto</a>
+                <a routerLink="contacto">Contacto</a>
               </li>
             </ul>
           </div>
