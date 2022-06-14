@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Prima Motors - Disfruta la Experiencia de tu Propio Auto</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +26,10 @@
 	<link href="assets/css/menu.css" rel="stylesheet">
 	<link href="assets/css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
     
-  <!-- YOUR CUSTOM CSS -->
+	<!-- SPECIFIC CSS -->
+    <link href="assets/layerslider/css/layerslider.css" rel="stylesheet">
+
+  	<!-- YOUR CUSTOM CSS -->
 	<link href="assets/css/custom.css" rel="stylesheet">
 
 	<!-- Modernizr -->
@@ -33,34 +37,35 @@
 
 </head>
 <body>
+	<app-root></app-root>
+
 	<div class="layer"></div>
 	
 	<div id="preloader">
 		<div data-loader="circle-side"></div>
 	</div>
   	
-	<app-root></app-root>
 
   	<footer>
-		<div class="container" style="padding-top: 120px;">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-3">
 					<h3>¿Necesitas ayuda?</h3>
-					<a href="tel://004542344599" id="phone">+51 987 654 321</a>
-					<a href="mailto:help@citytours.com" id="email_footer">contacto@primamotors.com</a>
+					<a href="tel://51987654321" id="phone">+51 987 654 321</a>
+					<a href="contacto@primamotors.com" id="email_footer">contacto@primamotors.com</a>
 				</div>
 				<div class="col-md-2 col-sm-3">
-					<h3>About</h3>
+					<h3>Sobre Prima Motors</h3>
 					<ul>
-						<li><a href="#">About us</a>
+						<li><a href="#">Nosotros</a>
 						</li>
 						<li><a href="#">FAQ</a>
 						</li>
-						<li><a href="#">Login</a>
+						<li><a href="#">Acceso</a>
 						</li>
-						<li><a href="#">Register</a>
+						<li><a href="#">Regístrate</a>
 						</li>
-						<li><a href="#">Terms and condition</a>
+						<li><a href="#">Términos y condiciones</a>
 						</li>
 					</ul>
 				</div>
@@ -96,8 +101,9 @@
 	<script src="assets/validate.js"></script>
 	<script src="assets/js/jquery.tweet.min.js"></script>
 	<script src="assets/js/functions.js"></script>
+	<script src="assets/js/parallax.min.js"></script>
 
-	 <!-- SPECIFIC SCRIPTS -->
+	<!-- SPECIFIC SCRIPTS -->
     <script src="assets/layerslider/js/greensock.js"></script>
     <script src="assets/layerslider/js/layerslider.transitions.js"></script>
     <script src="assets/layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
