@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-contacto',
@@ -7,7 +8,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactoComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private fb: FormBuilder
+  ) { }
+
+  ContactoForm= this.fb.group({
+    nombre:[''],
+    apellido:[''],
+    email:[''],
+    mensaje:['']
+  })
+
+  ___onSubmit(){
+    if (this.ContactoForm.valid){
+      console.log(this.ContactoForm.value);
+   } else {
+    alert ("formulario no valido");
+   }
+
+  }
+
 
   ngOnInit(): void {
   }

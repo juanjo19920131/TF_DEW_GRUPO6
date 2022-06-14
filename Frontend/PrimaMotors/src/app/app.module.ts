@@ -23,6 +23,7 @@ import { VentausadoNewComponent } from './access/compraventa/ventausado-new/vent
 import { VentausadoListComponent } from './access/compraventa/ventausado-list/ventausado-list.component';
 import { SolicitudNewComponent } from './access/taller/solicitud-new/solicitud-new.component';
 import { SolicitudListComponent } from './access/taller/solicitud-list/solicitud-list.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,9 @@ import { SolicitudListComponent } from './access/taller/solicitud-list/solicitud
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
