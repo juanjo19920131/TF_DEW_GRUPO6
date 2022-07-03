@@ -24,6 +24,7 @@ import { VentausadoListComponent } from './access/compraventa/ventausado-list/ve
 import { SolicitudNewComponent } from './access/taller/solicitud-new/solicitud-new.component';
 import { SolicitudListComponent } from './access/taller/solicitud-list/solicitud-list.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MarcasComponent } from './pages/marcas/marcas.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     VentausadoNewComponent,
     VentausadoListComponent,
     SolicitudNewComponent,
-    SolicitudListComponent
+    SolicitudListComponent,
+    MarcasComponent,
   ],
   imports: [
     BrowserModule,

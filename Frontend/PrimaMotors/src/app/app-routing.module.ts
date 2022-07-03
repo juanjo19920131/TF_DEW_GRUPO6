@@ -20,6 +20,7 @@ import { NosotrosComponent } from "./pages/nosotros/nosotros.component";
 import { NuevoComponent } from "./pages/servicios/nuevo/nuevo.component";
 import { TallerComponent } from "./pages/servicios/taller/taller.component";
 import { UsadoComponent } from "./pages/servicios/usado/usado.component";
+import { MarcasComponent } from "./pages/marcas/marcas.component";
 
 const routes: Routes = [
     { path: 'inicio', component: InicioComponent},
@@ -42,7 +43,8 @@ const routes: Routes = [
     { path: 'admin/taller/solicitud/new', component: SolicitudNewComponent},
     { path: 'admin/taller/solicitud/list', component: SolicitudListComponent},
     { path: 'contacto', component: ContactoComponent},
-    { path: '', redirectTo: 'inicio', pathMatch: 'full'}
+    { path: '', redirectTo: 'inicio', pathMatch: 'full'},
+    { path: 'marcas', component: MarcasComponent}
 ];
 
 @NgModule({
