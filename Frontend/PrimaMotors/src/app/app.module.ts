@@ -9,9 +9,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { NuevoComponent } from './pages/servicios/nuevo/nuevo.component';
 import { UsadoComponent } from './pages/servicios/usado/usado.component';
 import { TallerComponent } from './pages/servicios/taller/taller.component';
-import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './pages/login/login.component';
 import { MarcasComponent } from './pages/marcas/marcas.component';
+import { CotizarnuevoComponent } from './pages/cotizarnuevo/cotizarnuevo.component';
+import { CotizarusadoComponent } from './pages/cotizarusado/cotizarusado.component';
+import { SolicitudtallerComponent } from './pages/solicitudtaller/solicitudtaller.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { MarcasComponent } from './pages/marcas/marcas.component';
     UsadoComponent,
     TallerComponent,
     MarcasComponent,
-    LoginComponent
+    LoginComponent,
+    CotizarnuevoComponent,
+    CotizarusadoComponent,
+    SolicitudtallerComponent
   ],
   imports: [
     BrowserModule,
