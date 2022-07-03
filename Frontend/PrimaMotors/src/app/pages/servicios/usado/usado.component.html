@@ -11,45 +11,214 @@
 <!-- End SubHeader ============================================ -->
 
 <section class="wrapper">
-    <div class="divider_border"></div>
+    <div class="divider_border_gray"></div>
+    <div id="filters" class="clearfix">
+        <div id="sort_filters">
+            <select name="orderby" class="selectbox">
+                <option value="popularity">Sort by Popularity</option>
+                <option value="rating">Sort by Average Rating</option>
+                <option value="date" selected='selected'>Sort by Newness</option>
+                <option value="price">Sort by Price: Low to High</option>
+                <option value="price-desc">Sort by Price: High to Low</option>
+            </select>
+        </div>
+        <div id="view_change">
+            <a href="grid.html" class="grid_bt"></a>
+            <a href="list.html" class="list_bt"></a>
+        </div>
+    </div>
+    <!-- End filters -->
 
     <div class="container">
-        <div class="main_title_2">
-            <h3>¿Por qué encargárnoslo?</h3>
-            <p>Te facilitamos el trabajo de contacto e investigación respecto al auto y la persona con quien se haga el traspaso.</p>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="box_features">
-                    <h4>Trámites Rápidos</h4>
-                    <p>Nos encargamos de que los vehículos que ingresan al inventario tengan todos los documentos en regla para acelerar cualquier transacción o trámite requerido al momento del traspaso. De esta manera también, no hará falta una ardua investigación, porque ya lo hicimos nosotros.</p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="box_features">
-                    <h4>Facilidad de Pago</h4>
-                    <p>En Prima Motors estamos comprometidos con que tu experiencia sea la más placentera al adquirir un vehículo de segunda mano, así como también elaboramos propuestas y planes de pago que el vendedor esté dispuesto negociar dentro de los límites idóneos.</p>
-                </div>
-            </div>
-        </div>
-        <!-- End row -->
-        
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="box_features">
-                    <h4>Modelos Novedosos</h4>
-                    <p>No solamente limitamos los vehículos ingresantes a las marcas con las que trabajamos, sino también algunos de los atributos que garantizan que el vehículo sea moderno y también se encuentre en óptimas condiciones.</p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="box_features">
-                    <h4>Asistencia Personalizada en tu Compra/Venta</h4>
-                    <p>El elegir un vehículo siempre va a depender de las especificaciones técnicas y la apariencia que tenga, pero también de los pro y contras respecto a comparativas entre modelos. Es por ello que así seas comprador o vendedor, te pondremos en contacto con un asesor que te guíe para indicarte qué estaría faltando para ser parte del programa de compra/venta y puedas realizar un traspaso de vehículo.</p>
-                </div>
-            </div>
-        </div>
-        <!-- End row -->
 
+        <div class="row strip_list wow fadeIn animated" data-wow-delay="0.2s">
+            <div class="col-md-5">
+                <div class="img_wrapper">
+                    <div class="ribbon">
+                        <span>Popular</span>
+                    </div>
+                    <div class="price_grid">
+                        <sup>$</sup>20,000
+                    </div>
+                    <div class="img_container">
+                        <a href="detail-page.html">
+                            <img src="img/tour_list_1.jpg" width="800" height="533" class="img-responsive" alt="">
+                            <div class="short_info">
+                                <em>Duration 45 mins</em>
+                                <div class="score_wp">Superb
+                                    <div class="score">7.5</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End img_wrapper -->
+            </div>
+            <div class="col-md-7">
+                <h3>Colorado River<span>Quo scaevola referrentur civibus</span></h3>
+                <p>Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae <strong>forensibus qui</strong>. Duo aliquip necessitatibus ne. Eam sapientem assentior honestatis et. Ad mel veri soleat intellegat. Quo <strong>scaevola referrentur</strong> et, ei dicunt audire deserunt has. Soluta sanctus constituto has ad.</p>
+                <p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam propriae forensibus qui. </p>
+                <p><a href="detail-page.html" class="btn_1">Más Detalles</a>
+                </p>
+            </div>
+        </div>
+        <!-- End strip list -->
+
+        <div class="row strip_list wow fadeIn animated" data-wow-delay="0.2s">
+            <div class="col-md-5">
+                <div class="img_wrapper">
+                    <div class="ribbon">
+                        <span>Popular</span>
+                    </div>
+                    <div class="price_grid">
+                        <sup>$</sup>20,000
+                    </div>
+                    <div class="img_container">
+                        <a href="detail-page.html">
+                            <img src="img/tour_list_2.jpg" width="800" height="533" class="img-responsive" alt="">
+                            <div class="short_info">
+                                <em>Duration 45 mins</em>
+                                <div class="score_wp">Superb
+                                    <div class="score">7.5</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End img_wrapper -->
+            </div>
+            <div class="col-md-7">
+                <h3>Rafting &amp; Boating<span>Quo scaevola referrentur civibus</span></h3>
+                <p>Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae <strong>forensibus qui</strong>. Duo aliquip necessitatibus ne. Eam sapientem assentior honestatis et. Ad mel veri soleat intellegat. Quo <strong>scaevola referrentur</strong> et, ei dicunt audire deserunt has. Soluta sanctus constituto has ad.</p>
+                <p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam propriae forensibus qui. </p>
+                <p><a href="detail-page.html" class="btn_1">Más Detalles</a>
+                </p>
+            </div>
+        </div>
+        <!-- End strip list -->
+
+        <div class="row strip_list wow fadeIn animated" data-wow-delay="0.2s">
+            <div class="col-md-5">
+                <div class="img_wrapper">
+                    <div class="ribbon">
+                        <span>Popular</span>
+                    </div>
+                    <div class="price_grid">
+                        <sup>$</sup>20,000
+                    </div>
+                    <div class="img_container">
+                        <a href="detail-page.html">
+                            <img src="img/tour_list_3.jpg" width="800" height="533" class="img-responsive" alt="">
+                            <div class="short_info">
+                                <em>Duration 45 mins</em>
+                                <div class="score_wp">Superb
+                                    <div class="score">7.5</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End img_wrapper -->
+            </div>
+            <div class="col-md-7">
+                <h3>Advantage Canyon<span>Quo scaevola referrentur civibus</span></h3>
+                <p>Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae <strong>forensibus qui</strong>. Duo aliquip necessitatibus ne. Eam sapientem assentior honestatis et. Ad mel veri soleat intellegat. Quo <strong>scaevola referrentur</strong> et, ei dicunt audire deserunt has. Soluta sanctus constituto has ad.</p>
+                <p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam propriae forensibus qui. </p>
+                <p><a href="detail-page.html" class="btn_1">Más Detalles</a>
+                </p>
+            </div>
+        </div>
+        <!-- End strip list -->
+
+        <div class="row strip_list wow fadeIn animated" data-wow-delay="0.2s">
+            <div class="col-md-5">
+                <div class="img_wrapper">
+                    <div class="ribbon">
+                        <span>Popular</span>
+                    </div>
+                    <div class="price_grid">
+                        <sup>$</sup>20,000
+                    </div>
+                    <div class="img_container">
+                        <a href="detail-page.html">
+                            <img src="img/tour_list_4.jpg" width="800" height="533" class="img-responsive" alt="">
+                            <div class="short_info">
+                                <em>Duration 45 mins</em>
+                                <div class="score_wp">Superb
+                                    <div class="score">7.5</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End img_wrapper -->
+            </div>
+            <div class="col-md-7">
+                <h3>Raft Grand Canyon<span>Quo scaevola referrentur civibus</span></h3>
+                <p>Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae <strong>forensibus qui</strong>. Duo aliquip necessitatibus ne. Eam sapientem assentior honestatis et. Ad mel veri soleat intellegat. Quo <strong>scaevola referrentur</strong> et, ei dicunt audire deserunt has. Soluta sanctus constituto has ad.</p>
+                <p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam propriae forensibus qui. </p>
+                <p><a href="detail-page.html" class="btn_1">Más Detalles</a>
+                </p>
+            </div>
+        </div>
+        <!-- End strip list -->
+
+        <div class="row strip_list wow fadeIn animated" data-wow-delay="0.2s">
+            <div class="col-md-5">
+                <div class="img_wrapper">
+                    <div class="ribbon">
+                        <span>Popular</span>
+                    </div>
+                    <div class="price_grid">
+                        <sup>$</sup>20,000
+                    </div>
+                    <div class="img_container">
+                        <a href="detail-page.html">
+                            <img src="img/tour_list_5.jpg" width="800" height="533" class="img-responsive" alt="">
+                            <div class="short_info">
+                                <em>Duration 45 mins</em>
+                                <div class="score_wp">Superb
+                                    <div class="score">7.5</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End img_wrapper -->
+            </div>
+            <div class="col-md-7">
+                <h3>Western River<span>Quo scaevola referrentur civibus</span></h3>
+                <p>Lorem ipsum dolor sit amet, et cum civibus referrentur, at propriae <strong>forensibus qui</strong>. Duo aliquip necessitatibus ne. Eam sapientem assentior honestatis et. Ad mel veri soleat intellegat. Quo <strong>scaevola referrentur</strong> et, ei dicunt audire deserunt has. Soluta sanctus constituto has ad.</p>
+                <p>Per cu esse assentior delicatissimi, qui adipiscing dissentiunt mediocritatem in, dicat voluptaria no eam propriae forensibus qui. </p>
+                <p><a href="detail-page.html" class="btn_1">Más Detalles</a>
+                </p>
+            </div>
+        </div>
+        <!-- End strip list -->
+
+
+        <nav class="pagination-wrapper">
+            <ul class="pagination">
+                <li><a href="#">1</a>
+                </li>
+                <li><a href="#">2</a>
+                </li>
+                <li><a href="#">3</a>
+                </li>
+                <li><a href="#">4</a>
+                </li>
+                <li><a href="#">5</a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End pagination -->
+
+        <!-- End row -->
     </div>
     <!-- End container -->
 </section>
