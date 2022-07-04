@@ -1,0 +1,21 @@
+<div class="container-banner-header" style="padding: 120px;">
+        <div class="row">
+          <div class="col-6">
+            <div class="col-lg-6">
+                <form [formGroup]="retrieveForm" method="post" autocomplete="off">
+                  <div class="form-group">
+                    <input type="email" formControlName="email" class="form-control" placeholder="Ingrese email">
+                    </div>
+                  <div class="form-group">
+                    <button (click)="Submit()"  class="btn btn-primary">Enviar</button> 
+                   </div>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <img src="assets\img\mercedes_sedan.jpg" style="width: 425px;" alt="logo">
+                <p class="small mb-0">Prima Motors es la marca lider en agradese por confiar en nosotros.</p>
+              </div> 
+            </div> 
+        </div>
+ </div>
+            

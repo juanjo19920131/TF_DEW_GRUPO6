@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-contacto',
@@ -13,18 +13,20 @@ export class ContactoComponent implements OnInit {
   ) { }
 
   ContactoForm= this.fb.group({
-    nombre:[''],
-    apellido:[''],
-    email:[''],
-    mensaje:['']
+    persona: this.fb.group({
+      nombre:['',Validators.required],
+    apellido:['',Validators.required]
+    }),
+    email:['', [Validators.required, Validators.email]],
+    mensaje:['',Validators.required]
   })
 
-  ___onSubmit(){
-    if (this.ContactoForm.valid){
+  __onSubmit() {
+    if(this.ContactoForm.valid) {
       console.log(this.ContactoForm.value);
-   } else {
-    alert ("formulario no valido");
-   }
+    } else { 
+      alert("Formulario no valido...");
+    }
 
   }
 

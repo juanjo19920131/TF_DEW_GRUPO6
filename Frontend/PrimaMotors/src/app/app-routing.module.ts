@@ -8,6 +8,8 @@ import { NuevoComponent } from "./pages/servicios/nuevo/nuevo.component";
 import { TallerComponent } from "./pages/servicios/taller/taller.component";
 import { UsadoComponent } from "./pages/servicios/usado/usado.component";
 import { MarcasComponent } from "./pages/marcas/marcas.component";
+import { RetrieveComponent } from "./pages/retrieve/retrieve.component";
+import { UsernewComponent } from "./pages/usernew/usernew.component";
 
 const routes: Routes = [
     { path: 'inicio', component: InicioComponent},
@@ -17,6 +19,8 @@ const routes: Routes = [
     { path: 'servicios/taller', component: TallerComponent},
     { path: 'contacto', component: ContactoComponent},
     { path: 'Login', component: LoginComponent},
+    { path: 'retrieve', component: RetrieveComponent},
+    { path: 'usernew', component: UsernewComponent},
     { path: '', redirectTo: 'inicio', pathMatch: 'full'},
     { path: 'marcas', component: MarcasComponent}
 ];

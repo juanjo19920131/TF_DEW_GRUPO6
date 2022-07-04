@@ -15,6 +15,8 @@ import { CotizarnuevoComponent } from './pages/cotizarnuevo/cotizarnuevo.compone
 import { CotizarusadoComponent } from './pages/cotizarusado/cotizarusado.component';
 import { SolicitudtallerComponent } from './pages/solicitudtaller/solicitudtaller.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RetrieveComponent } from './pages/retrieve/retrieve.component';
+import { UsernewComponent } from './pages/usernew/usernew.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     CotizarnuevoComponent,
     CotizarusadoComponent,
-    SolicitudtallerComponent
+    SolicitudtallerComponent,
+    RetrieveComponent,
+    UsernewComponent
   ],
   imports: [
     BrowserModule,
