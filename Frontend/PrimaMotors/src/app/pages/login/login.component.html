@@ -1,39 +1,31 @@
-<section class="h-100 gradient-form" style="background-color: rgb(255, 254, 254);">
-    <div class="container py-5 h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-xl-10">
-          <div class="card rounded-3 text-black">
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="card-body p-md-5 mx-md-4">
-               <br><br><br><br>
-               <form [formGroup]="loginForm" method="post" autocomplete="off">
-                <div formGroupName="persona">
-                  <div class="form-group">
-                    <input type="email" formControlName="email" class="form-control" placeholder="Ingrese email">
-                </div>
+
+<div class="login-dark" style="background-image: url(&quot;assets/img/nissan_sedan.jpg&quot;); padding: 95px;">
+       
+    <div class="container" style="padding-top: 120px;">
+        <div class="rowfa-pull-right" >
+            <div class="col-6">
+                <div class="col-lg-6">
+                <form  method="post" style="background-color: rgba(30, 40, 51, 0.425); padding: 50px;">
+                    <h2 class="sr-only">Login Form</h2>
+                    <div class="illustration"><i class="icon ion-ios-locked-outline" style="color: rgba(255,165,85,0.75);"></i></div>
                     <div class="form-group">
-                        <input type="password" formControlName="password" class="form-control" placeholder="Ingrese password">
+                        <input class="form-control" type="email" formControlName="uid" placeholder="User" autocomplete="off">
                     </div>
-                </div>
-                <!--<button routerLink="retrieve" type="button" class="btn btn-link">¿Te olvidaste tu usuario o clave?</button>-->
-                <a class="btn btn-link" role="button" href="retrieve">¿Te olvidaste tu usuario o clave?</a>
-                <a class="btn btn-link" role="button" href="usernew">Nuevo Usuario</a>
-                <br>
-                <div class="form-group">
-                  <button (click)="Submit()"  class="btn btn-primary">Iniciar</button> 
-               </div>
-             </form>
-                </div>
-              </div>
-              <div class="text-center">
-                <br><br><br><br><br><br>
-                <img src="assets\img\molcar_1.png"
-                  style="width: 325px;" alt="logo">
-                </div>
-             </div>
-          </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="password" formControlName="pwd" placeholder="Password" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-block" type="submit" style="background-color: rgba(255,165,85,0.75);font-weight: normal;">Ingresar</button>
+                    </div>
+                    <div class="form-group"> 
+                        <a class="btn btn-link" role="button" href="retrieve">¿Te olvidaste tu usuario o clave?</a>
+                        <a class="btn btn-link" role="button" href="usernew">Nuevo Usuario</a>
+                    </div>
+                </form>
+            </div> 
+           <div class="col-lg-6">
+        
+       </div>    
         </div>
-      </div>
     </div>
-  </section>
