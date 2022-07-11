@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IProvinciaRepository
     {
-        List<EntityProvincia> GetProvincias(string cod_dep);
-        EntityProvincia GetProvincia(string cod_dep, string cod_pro);
+        EntityBaseResponse GetProvincias(string cod_dep);
+        EntityBaseResponse GetProvincia(string cod_dep, string cod_pro);
     }
 }

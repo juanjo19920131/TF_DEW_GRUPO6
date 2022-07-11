@@ -10,84 +10,141 @@ namespace DBContext
 {
     public class ColorRepository : BaseRepository, IColorRepository
     {
-        public EntityColor GetColor(string codigo)
+        public EntityBaseResponse GetColor(string codigo)
         {
-            var Color = new EntityColor();
+            var response = new EntityBaseResponse();
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var color = new EntityColor();
                     const string sql = "usp_ObtenerColor";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@CodColor", value: codigo, dbType: DbType.String, direction: ParameterDirection.Input);
 
-                    Color = db.Query<EntityColor>(
+                    color = db.Query<EntityColor>(
                         sql: sql,
                         param: p,
                         commandType: CommandType.StoredProcedure
                         ).FirstOrDefault();
+
+                    if (color != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = color;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Color;
+            return response;
         }
 
-        public List<EntityColor> GetColores()
+        public EntityBaseResponse GetColores()
         {
-            var Colores = new List<EntityColor>();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var colores = new List<EntityColor>();
                     const string sql = "usp_ListarColores";
-                    Colores = db.Query<EntityColor>(
+                    colores = db.Query<EntityColor>(
                         sql: sql,
                         commandType: CommandType.StoredProcedure
                         ).ToList();
+
+                    if (colores != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = colores;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Colores;
+            return response;
         }
 
-        public List<EntityColor> GetColoresPorModelo(string codigo)
+        public EntityBaseResponse GetColoresPorModelo(string codigo)
         {
-            var Colores = new List<EntityColor>();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var colores = new List<EntityColor>();
                     const string sql = "usp_ListarColoresPorModelo";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@CodColores", value: codigo, dbType: DbType.String, direction: ParameterDirection.Input);
 
-                    Colores = db.Query<EntityColor>(
+                    colores = db.Query<EntityColor>(
                         sql: sql,
                         param: p,
                         commandType: CommandType.StoredProcedure
                         ).ToList();
+
+                    if (colores != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = colores;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Colores;
+            return response;
         }
     }
 }

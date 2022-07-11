@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface ITipoRevisionRepository
     {
-        List<EntityTipoRevision> GetTipoRevisiones();
-        EntityTipoRevision GetTipoRevision(int id);
+        EntityBaseResponse GetTipoRevisiones();
+        EntityBaseResponse GetTipoRevision(int id);
     }
 }

@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IEstadoRepository
     {
-        List<EntityEstado> GetEstados();
-        EntityEstado GetEstado(int id);
+        EntityBaseResponse GetEstados();
+        EntityBaseResponse GetEstado(int id);
     }
 }

@@ -15,11 +15,14 @@
     <div id="filters" class="clearfix">
         <div id="sort_filters">
             <select name="filtroMarca" class="selectbox">
+                <option [value]="item" *ngFor="let item of marcas">{{item.descripMarca}}</option>
+            <!--
                 <option value="popularity">Sort by Popularity</option>
                 <option value="rating">Sort by Average Rating</option>
                 <option value="date" selected='selected'>Sort by Newness</option>
                 <option value="price">Sort by Price: Low to High</option>
                 <option value="price-desc">Sort by Price: High to Low</option>
+            -->
             </select>
         </div>
     </div>

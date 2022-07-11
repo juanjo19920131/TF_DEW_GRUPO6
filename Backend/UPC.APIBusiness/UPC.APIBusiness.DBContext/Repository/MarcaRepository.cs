@@ -10,14 +10,15 @@ namespace DBContext
 {
     public class MarcaRepository : BaseRepository, IMarcaRepository
     {
-        public EntityMarca GetMarca(int id)
+        public EntityBaseResponse GetMarca(int id)
         {
-            var marca = new EntityMarca();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var marca = new EntityMarca();
                     const string sql = "usp_ObtenerMarca";
 
                     var p = new DynamicParameters();
@@ -28,37 +29,75 @@ namespace DBContext
                         param: p,
                         commandType: CommandType.StoredProcedure
                         ).FirstOrDefault();
+
+                    if (marca != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = marca;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return marca;
+            return response;
         }
 
-        public List<EntityMarca> GetMarcas()
+        public EntityBaseResponse GetMarcas()
         {
-            var marcas = new List<EntityMarca>();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var marcas = new List<EntityMarca>();
                     const string sql = "usp_ListarMarcas";
+
                     marcas = db.Query<EntityMarca>(
                         sql: sql,
                         commandType: CommandType.StoredProcedure
                         ).ToList();
+
+                    if (marcas != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = marcas;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
             }catch(Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return marcas;
+            return response;
         }
     }
 }

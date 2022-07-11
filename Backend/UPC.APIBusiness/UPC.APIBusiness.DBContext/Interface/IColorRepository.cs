@@ -7,9 +7,9 @@ namespace DBContext
 {
     public interface IColorRepository
     {
-        List<EntityColor> GetColores();
-        List<EntityColor> GetColoresPorModelo(string codigos);
-        EntityColor GetColor(string codigo);
+        EntityBaseResponse GetColores();
+        EntityBaseResponse GetColoresPorModelo(string codigos);
+        EntityBaseResponse GetColor(string codigo);
         
     }
 }

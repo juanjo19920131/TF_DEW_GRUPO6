@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IMarcaRepository
     {
-        List<EntityMarca> GetMarcas();
-        EntityMarca GetMarca(int id);
+        EntityBaseResponse GetMarcas();
+        EntityBaseResponse GetMarca(int id);
     }
 }

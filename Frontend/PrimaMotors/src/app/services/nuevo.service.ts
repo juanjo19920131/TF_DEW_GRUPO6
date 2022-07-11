@@ -13,4 +13,8 @@ export class NuevoService {
   __getMarcas(){
     return this.http.get('https://localhost:44309/api/marca/listar');
   }
+
+  __getModelos(){
+    return this.http.get('https://localhost:44309/api/modelo/listar');
+  }
 }

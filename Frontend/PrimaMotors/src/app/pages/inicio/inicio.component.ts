@@ -8,20 +8,9 @@ import { MarcaService } from 'src/app/services/marca.service';
 })
 export class InicioComponent implements OnInit {
 
-  constructor(
-    private readonly ms: MarcaService
-  ) { }
-
-  marcas: any = [];
-
-  __obtenerMarcas(){
-    this.ms.__getMarcas().subscribe((rest: any) => {
-      console.log(rest)
-    })
-  }
+  constructor() { }
 
   ngOnInit(): void {
-    this.__obtenerMarcas();
   }
 
 }

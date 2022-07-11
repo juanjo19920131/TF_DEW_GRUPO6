@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IModeloRepository
     {
-        List<EntityModelo> GetModelos(int id);
-        EntityModelo GetModelo(int id);
+        EntityBaseResponse GetModelos(int id);
+        EntityBaseResponse GetModelo(int id);
     }
 }

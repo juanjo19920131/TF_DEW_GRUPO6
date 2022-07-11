@@ -10,56 +10,95 @@ namespace DBContext
 {
     public class TipoRevisionRepository : BaseRepository, ITipoRevisionRepository
     {
-        public EntityTipoRevision GetTipoRevision(int id)
+        public EntityBaseResponse GetTipoRevision(int id)
         {
-            var TipoRevision = new EntityTipoRevision();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var tipoRevision = new EntityTipoRevision();
                     const string sql = "usp_ObtenerTipoRevision";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@IdRevision", value: id, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
-                    TipoRevision = db.Query<EntityTipoRevision>(
+                    tipoRevision = db.Query<EntityTipoRevision>(
                         sql: sql,
                         param: p,
                         commandType: CommandType.StoredProcedure
                         ).FirstOrDefault();
+
+                    if (tipoRevision != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = tipoRevision;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return TipoRevision;
+            return response;
         }
 
-        public List<EntityTipoRevision> GetTipoRevisiones()
+        public EntityBaseResponse GetTipoRevisiones()
         {
-            var TipoRevisiones = new List<EntityTipoRevision>();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var tipoRevisiones = new List<EntityTipoRevision>();
                     const string sql = "usp_ListarTipoRevision";
-                    TipoRevisiones = db.Query<EntityTipoRevision>(
+
+                    tipoRevisiones = db.Query<EntityTipoRevision>(
                         sql: sql,
                         commandType: CommandType.StoredProcedure
                         ).ToList();
+
+                    if (tipoRevisiones != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = tipoRevisiones;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return TipoRevisiones;
+            return response;
         }
     }
 }

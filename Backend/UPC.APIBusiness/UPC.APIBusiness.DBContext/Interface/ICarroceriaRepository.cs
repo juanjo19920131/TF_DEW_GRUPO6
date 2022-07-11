@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface ICarroceriaRepository
     {
-        List<EntityCarroceria> GetCarrocerias();
-        EntityCarroceria GetCarroceria(int id);
+        EntityBaseResponse GetCarrocerias();
+        EntityBaseResponse GetCarroceria(int id);
     }
 }

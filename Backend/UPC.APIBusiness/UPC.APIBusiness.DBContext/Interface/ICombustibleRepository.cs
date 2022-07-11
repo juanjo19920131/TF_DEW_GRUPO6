@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface ICombustibleRepository
     {
-        List<EntityCombustible> GetCombustibles();
-        EntityCombustible GetCombustible(int id);
+        EntityBaseResponse GetCombustibles();
+        EntityBaseResponse GetCombustible(int id);
     }
 }

@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IPaisRepository
     {
-        List<EntityPais> GetPaises();
-        EntityPais GetPais(string codigo);
+        EntityBaseResponse GetPaises();
+        EntityBaseResponse GetPais(string codigo);
     }
 }

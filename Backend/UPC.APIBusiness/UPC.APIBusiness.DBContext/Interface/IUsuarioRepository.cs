@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IUsuarioRepository
     {
-        List<EntityUsuario> GetUsuarios();
-        EntityUsuario GetUsuario(int id);
+        EntityBaseResponse GetUsuarios();
+        EntityBaseResponse GetUsuario(int id);
     }
 }

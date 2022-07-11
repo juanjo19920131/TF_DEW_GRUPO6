@@ -10,60 +10,98 @@ namespace DBContext
 {
     public class ModeloRepository : BaseRepository, IModeloRepository
     {
-        public EntityModelo GetModelo(int id)
+        public EntityBaseResponse GetModelo(int id)
         {
-            var Modelo = new EntityModelo();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var modelo = new EntityModelo();
                     const string sql = "usp_ObtenerModelo";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@IdModelo", value: id, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
-                    Modelo = db.Query<EntityModelo>(
+                    modelo = db.Query<EntityModelo>(
                         sql: sql,
                         param: p,
                         commandType: CommandType.StoredProcedure
                         ).FirstOrDefault();
+
+                    if (modelo != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = modelo;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Modelo;
+            return response;
         }
 
-        public List<EntityModelo> GetModelos(int id)
+        public EntityBaseResponse GetModelos(int id)
         {
-            var Modelos = new List<EntityModelo>();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var modelos = new List<EntityModelo>();
                     const string sql = "usp_ListarModelosPorMarca";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@IdMarca", value: id, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
-                    Modelos = db.Query<EntityModelo>(
+                    modelos = db.Query<EntityModelo>(
                         sql: sql,
                         commandType: CommandType.StoredProcedure
                         ).ToList();
+
+                    if (modelos != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = modelos;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Modelos;
+            return response;
         }
     }
 }

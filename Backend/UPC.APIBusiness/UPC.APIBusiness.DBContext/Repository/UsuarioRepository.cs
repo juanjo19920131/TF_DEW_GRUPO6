@@ -10,56 +10,95 @@ namespace DBContext
 {
     public class UsuarioRepository : BaseRepository, IUsuarioRepository
     {
-        public EntityUsuario GetUsuario(int id)
+        public EntityBaseResponse GetUsuario(int id)
         {
-            var Usuario = new EntityUsuario();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var usuario = new EntityUsuario();
                     const string sql = "usp_ObtenerUsuario";
 
                     var p = new DynamicParameters();
                     p.Add(name: "@IdUsuario", value: id, dbType: DbType.Int32, direction: ParameterDirection.Input);
 
-                    Usuario = db.Query<EntityUsuario>(
+                    usuario = db.Query<EntityUsuario>(
                         sql: sql,
                         param: p,
                         commandType: CommandType.StoredProcedure
                         ).FirstOrDefault();
+
+                    if (usuario != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = usuario;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
 
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Usuario;
+            return response;
         }
 
-        public List<EntityUsuario> GetUsuarios()
+        public EntityBaseResponse GetUsuarios()
         {
-            var Usuarios = new List<EntityUsuario>();
+            var response = new EntityBaseResponse(); 
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
+                    var usuarios = new List<EntityUsuario>();
                     const string sql = "usp_ListarUsuarios";
-                    Usuarios = db.Query<EntityUsuario>(
+
+                    usuarios = db.Query<EntityUsuario>(
                         sql: sql,
                         commandType: CommandType.StoredProcedure
                         ).ToList();
+
+                    if (usuarios != null)
+                    {
+                        response.issuccess = true;
+                        response.errorcode = "0000";
+                        response.errormessage = string.Empty;
+                        response.data = usuarios;
+                    }
+                    else
+                    {
+                        response.issuccess = false;
+                        response.errorcode = "0001";
+                        response.errormessage = "Sin Datos";
+                        response.data = null;
+                    }
                 }
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                response.issuccess = false;
+                response.errorcode = "0001";
+                response.errormessage = ex.Message;
+                response.data = null;
             }
 
-            return Usuarios;
+            return response;
         }
     }
 }

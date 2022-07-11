@@ -7,7 +7,7 @@ namespace DBContext
 {
     public interface IDepartamentoRepository
     {
-        List<EntityDepartamento> GetDepartamentos();
-        EntityDepartamento GetDepartamento(string codigo);
+        EntityBaseResponse GetDepartamentos();
+        EntityBaseResponse GetDepartamento(string codigo);
     }
 }

@@ -16,15 +16,13 @@ export class NuevoComponent implements OnInit {
 
   __listarMarcas(){
     this.ns.__getMarcas().subscribe((rest: any) => {
-      //console.log(rest)
-      this.marcas = rest.data
+      this.marcas = rest.data;
       console.log(this.marcas)
     })
   }
 
   ngOnInit(): void {
     this.__listarMarcas();
-    
   }
 
 }
