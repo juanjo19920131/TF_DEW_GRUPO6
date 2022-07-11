@@ -1,0 +1,13 @@
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.deps.json
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.dll
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.pdb
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Debug\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.csproj.AssemblyReference.cache
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.AssemblyInfoInputs.cache
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.AssemblyInfo.cs
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.csproj.CoreCompileInputs.cache
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.csproj.CopyComplete
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.dll
+D:\Giancarlo U\UPC\Desarrollo web\Proyecto\Backend\Backend\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Debug\netcoreapp3.1\UPC.APIBusiness.DBContext.pdb

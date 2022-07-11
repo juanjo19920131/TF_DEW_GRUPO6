@@ -48,7 +48,7 @@ namespace UPC.Business.API.Controllers
         [Route("GetListUser")]
         public ActionResult Get()
         {
-            var ret = _UserRepository.GetUsers();
+            var ret = _UserRepository.GetUsuario();
 
             if (ret == null)
                 return StatusCode(401);

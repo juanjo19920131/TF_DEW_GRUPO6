@@ -131,7 +131,7 @@ namespace API
             services.AddTransient<IPaisRepository, PaisRepository>();
             services.AddTransient<IProvinciaRepository, ProvinciaRepository>();
             services.AddTransient<ITipoRevisionRepository, TipoRevisionRepository>();
-            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IUsuarioRepository, IUsuarioRepository>();
 
             // ----------------------------------------------------------------
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
