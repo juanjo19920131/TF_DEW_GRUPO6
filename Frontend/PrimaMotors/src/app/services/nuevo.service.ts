@@ -14,7 +14,7 @@ export class NuevoService {
     return this.http.get('https://localhost:44309/api/marca/listar');
   }
 
-  __getModelos(){
-    return this.http.get('https://localhost:44309/api/modelo/listar');
+  __getModelos(param :string){
+    return this.http.get('https://localhost:44309/api/modelo/listar' + param);
   }
 }
