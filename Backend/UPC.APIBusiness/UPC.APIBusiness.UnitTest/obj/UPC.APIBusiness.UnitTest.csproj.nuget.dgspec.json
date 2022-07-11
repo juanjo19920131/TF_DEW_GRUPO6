@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj": {}
+    "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
+    "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
+        "projectUniqueName": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
         "projectName": "UPC.APIBusiness.API",
-        "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
-        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\obj\\",
+        "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj",
+        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+        "outputPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
-                "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
+              "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
+                "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
               },
-              "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
-                "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
+              "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+                "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
               }
             }
           }
@@ -118,25 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
+    "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
+        "projectUniqueName": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
         "projectName": "UPC.APIBusiness.DBContext",
-        "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
-        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\obj\\",
+        "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj",
+        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+        "outputPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -150,8 +142,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
-                "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
+              "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+                "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj"
               }
             }
           }
@@ -198,25 +190,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
+    "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+        "projectUniqueName": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
         "projectName": "UPC.APIBusiness.DBEntity",
-        "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
-        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",
+        "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj",
+        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+        "outputPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -256,25 +244,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj": {
+    "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
+        "projectUniqueName": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
         "projectName": "UPC.APIBusiness.UnitTest",
-        "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Juanjo\\.nuget\\packages\\",
-        "outputPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\obj\\",
+        "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\UPC.APIBusiness.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+        "outputPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Juanjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -288,11 +272,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
-                "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj"
+              "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj": {
+                "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj"
               },
-              "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
-                "projectPath": "D:\\UPC\\CICLO VI\\Desarrollo para Entorno Web\\TrabajoFinalG6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
+              "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj": {
+                "projectPath": "D:\\Giancarlo U\\UPC\\Desarrollo web\\Proyecto final\\TrabajoFinalG6\\TF_DEW_GRUPO6\\Backend\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj"
               }
             }
           }
@@ -335,7 +319,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

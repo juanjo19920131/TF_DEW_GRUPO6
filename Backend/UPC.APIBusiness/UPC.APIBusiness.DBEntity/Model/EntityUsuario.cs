@@ -6,6 +6,8 @@ namespace DBEntity
 {
     public class EntityUsuario : EntityBase
     {
+       
+
         public int IdUsuario { get; set; }
         public string LoginUsuario { get; set; }
         public string PasswordUsuario { get; set; }
