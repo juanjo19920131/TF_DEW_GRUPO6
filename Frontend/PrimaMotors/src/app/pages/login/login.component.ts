@@ -9,14 +9,16 @@ import { FormBuilder, Validators } from '@angular/forms';
 export class LoginComponent implements OnInit {
 
   constructor(
-    private fb: FormBuilder
+    private fb: FormBuilder,
+  ///  private readonly us: UserService,
+   /// private router: Router
+
   ) { }
   loginForm= this.fb.group({
-    persona: this.fb.group({
       email:['', [Validators.required, Validators.email]],
       password:['',Validators.required]
    })
-  })
+  
 
   Submit() {
     if(this.loginForm.valid) {
