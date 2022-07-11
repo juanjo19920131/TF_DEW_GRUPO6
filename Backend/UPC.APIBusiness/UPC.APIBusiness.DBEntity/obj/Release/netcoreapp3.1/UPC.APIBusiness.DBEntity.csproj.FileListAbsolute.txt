@@ -1,0 +1,10 @@
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.deps.json
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.csproj.AssemblyReference.cache
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.AssemblyInfoInputs.cache
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.AssemblyInfo.cs
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.csproj.CoreCompileInputs.cache
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb

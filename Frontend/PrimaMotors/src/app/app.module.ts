@@ -1,5 +1,6 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
@@ -38,8 +39,8 @@ import { UsernewComponent } from './pages/usernew/usernew.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

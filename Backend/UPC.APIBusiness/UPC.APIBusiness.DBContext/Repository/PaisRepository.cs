@@ -10,28 +10,56 @@ namespace DBContext
 {
     public class PaisRepository : BaseRepository, IPaisRepository
     {
-        public List<EntityPais> GetPais()
+        public EntityPais GetPais(string codigo)
         {
-            throw new NotImplementedException();
+            var Pais = new EntityPais();
+
+            try
+            {
+                using (var db = GetSqlConnection())
+                {
+                    const string sql = "usp_ObtenerPais";
+
+                    var p = new DynamicParameters();
+                    p.Add(name: "@CodPais", value: codigo, dbType: DbType.String, direction: ParameterDirection.Input);
+
+                    Pais = db.Query<EntityPais>(
+                        sql: sql,
+                        param: p,
+                        commandType: CommandType.StoredProcedure
+                        ).FirstOrDefault();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+
+            return Pais;
         }
 
-        public EntityPais GetPais(string CodPais)
+        public List<EntityPais> GetPaises()
         {
-            var pais = new EntityPais();
+            var Paises = new List<EntityPais>();
 
             try
             {
                 using (var db = GetSqlConnection())
                 {
                     const string sql = "usp_ListarPaises";
+                    Paises = db.Query<EntityPais>(
+                        sql: sql,
+                        commandType: CommandType.StoredProcedure
+                        ).ToList();
                 }
             }
             catch (Exception ex)
             {
-
+                throw new Exception(ex.Message);
             }
 
-            return pais;
+            return Paises;
         }
     }
 }

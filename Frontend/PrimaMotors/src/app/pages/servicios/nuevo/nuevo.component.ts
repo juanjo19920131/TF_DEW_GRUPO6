@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NuevoService } from 'src/app/services/nuevo.service';
 
 @Component({
   selector: 'app-nuevo',
@@ -7,9 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NuevoComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private readonly ns: NuevoService
+  ) { }
+
+  marcas: any = [];
+
+  __listarMarcas(){
+    this.ns.__getMarcas().subscribe((rest: any) => {
+      //console.log(rest)
+      this.marcas = rest.data
+      console.log(this.marcas)
+    })
+  }
 
   ngOnInit(): void {
+    this.__listarMarcas();
+    
   }
 
 }

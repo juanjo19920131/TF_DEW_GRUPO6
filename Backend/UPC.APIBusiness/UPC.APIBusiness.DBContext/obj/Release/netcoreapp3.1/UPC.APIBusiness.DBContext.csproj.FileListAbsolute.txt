@@ -1,0 +1,13 @@
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.deps.json
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.dll
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.pdb
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.dll
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\bin\Release\netcoreapp3.1\UPC.APIBusiness.DBEntity.pdb
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.csproj.AssemblyReference.cache
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.GeneratedMSBuildEditorConfig.editorconfig
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.AssemblyInfoInputs.cache
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.AssemblyInfo.cs
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.csproj.CoreCompileInputs.cache
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.csproj.CopyComplete
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.dll
+D:\UPC\CICLO VI\Desarrollo para Entorno Web\TrabajoFinalG6\Backend\UPC.APIBusiness\UPC.APIBusiness.DBContext\obj\Release\netcoreapp3.1\UPC.APIBusiness.DBContext.pdb

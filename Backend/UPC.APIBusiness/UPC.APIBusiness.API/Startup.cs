@@ -119,8 +119,20 @@ namespace API
 
 
             //TODO: Registrar las interfaces para Inyección de Dependencias
-
+            
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<ICarroceriaRepository, CarroceriaRepository>();
+            services.AddTransient<IColorRepository, ColorRepository>();
+            services.AddTransient<ICombustibleRepository, CombustibleRepository>();
+            services.AddTransient<IDepartamentoRepository, DepartamentoRepository>();
+            services.AddTransient<IDistritoRepository, DistritoRepository>();
+            services.AddTransient<IEstadoRepository, EstadoRepository>();
+            services.AddTransient<IMarcaRepository, MarcaRepository>();
+            services.AddTransient<IModeloRepository, ModeloRepository>();
+            services.AddTransient<IPaisRepository, PaisRepository>();
+            services.AddTransient<IProvinciaRepository, ProvinciaRepository>();
+            services.AddTransient<ITipoRevisionRepository, TipoRevisionRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
             // ----------------------------------------------------------------
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
